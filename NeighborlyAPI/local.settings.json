@@ -1,0 +1,29 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "FUNCTIONS_WORKER_RUNTIME": "CfDJ8KvJ6DmYyMJCgkPKMHi9yggxobSNL+EiBudqjTbkN08MV8FPGx7WqKyJXi1vK5/3O48YnxQvGjJtBiH2gbzh8qUxrA2On+1JRf1xQeWwdKwATocSwT1CMT9SN2gtzXs0ZQ==",
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=nd081storage;AccountKey=wCYhV32BfkAPttD/0Xp9i3yMI5PwkbUKin/WP0b3mcFHbMDOpFsdvlSoW3E3b3lDCwOYsTfVUcVfTqB6S9qlYQ==;EndpointSuffix=core.windows.net"
+  },
+  "ConnectionStrings": [
+    {
+      "connectionString": "mongodb://nd081cosmos:rLHCSYMaWRItcvkApRlPAZ1OsIUYerfJfpGRNOv4bXUFSVOeb6G7c3bGB9qV6MSbENeBlNJ2CvHKap15zvtc1g==@nd081cosmos.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb",
+      "description": "Primary MongoDB Connection String"
+    },
+    {
+      "connectionString": "mongodb://nd081cosmos:XXE05VdsmVNfSVk8G33OMgjIXobyT0VN4cAdAwUa1Js998boNbP2rxUNiVWD1PKDa8jMAz9jGK5366p3XEJpbQ==@nd081cosmos.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb",
+      "description": "Secondary MongoDB Connection String"
+    },
+    {
+      "connectionString": "mongodb://nd081cosmos:hGnR5dDvo0tH5cyPl4LLq7klIoJK8htH2o2ta5UVPXdqqoxeVtzQACabPFnWxlpJZlkliKovme4FW5ad4R508g==@nd081cosmos.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb",
+      "description": "Primary Read-Only MongoDB Connection String"
+    },
+    {
+      "connectionString": "mongodb://nd081cosmos:vyBu6p1r16O0V9SU4pVBHtvHSGLO2E4GbBKZlIszBWmadPgwvs5t0HTBFAiBQsAcihvLBMOCXRwRMKAtdAYVbw==@nd081cosmos.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb",
+      "description": "Secondary Read-Only MongoDB Connection String"
+    }
+  ]
+,
+
+
+  "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=nd081storage;AccountKey=wCYhV32BfkAPttD/0Xp9i3yMI5PwkbUKin/WP0b3mcFHbMDOpFsdvlSoW3E3b3lDCwOYsTfVUcVfTqB6S9qlYQ==;EndpointSuffix=core.windows.net"
+}
